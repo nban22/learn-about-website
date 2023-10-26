@@ -9,8 +9,8 @@
 
 </head>
 <body>
+  {%include "header.html"%}
   <div class="container">
-    
   <h1 class="text-center mt-2 mb-4">Hello World {{company_name}}</h1>
     <img class="img-fluid" src="https://learn-about-website--nguyenbaan66200.repl.co/static/sagiri3.jpg" alt="sagiri-anime" width="100%"/>
     <h2 class="text-center  mt-2 mb-4">About me</h2>
@@ -23,8 +23,9 @@
     </p>
     <div class="text-center">
       <button class="btn btn-primary btn-lg">Contact Us</button>
-      <p class="mt-4">Copyright 2022, An Nguyen</p>
+      
     </div>
+    {% include 'footer.html' %}
   </div>
 </body>
 </html> 
